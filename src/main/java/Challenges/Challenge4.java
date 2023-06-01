@@ -15,7 +15,7 @@ public class Challenge4 {
     Para una temperatura (TEMP) de 11,5 grados y un peso (PESO) de 3200 gramos
 
     Mostrar el resultado simplemente por consola.
-    Nota: Descargar la librería  exp4j de la web.
+    Nota: Descargar la librería exp4j de la web.
 
    */
 
@@ -73,7 +73,10 @@ public class Challenge4 {
 
     /* New_SGR exists because I was getting a: "to many operands" error,
     And needed to check if that was really the case
-    , in the end it was because of the decimal separator */
+    , in the end it was because of the decimal separator
+
+    I keep it in the code just for the sake of establishing the approach I took to find a solution
+    */
 
   }
 
