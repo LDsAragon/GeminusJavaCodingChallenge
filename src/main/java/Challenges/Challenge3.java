@@ -40,7 +40,7 @@ public class Challenge3 {
   private static List<Integer> buildListOfCages(int minIndex, int maxIndex) {
 
     List<Integer> cages = new ArrayList<>();
-    //Traverse distance between min and max and add items to the list
+    //Traverse distance between min and max indexes and add items to the list with those values
     for (int i = minIndex; i <= maxIndex; i++) {
       cages.add(i);
     }
@@ -92,6 +92,7 @@ public class Challenge3 {
       //Display Cages
       for (int j = 0; j < group.size(); j++) {
         System.out.print("Cage " + group.get(j));
+        //Add Colon
         if (j < group.size() - 1) {
           System.out.print(", ");
         }

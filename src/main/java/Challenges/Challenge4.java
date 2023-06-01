@@ -1,7 +1,6 @@
 package Challenges;
 
 import java.util.HashMap;
-import java.util.Map;
 import net.objecthunter.exp4j.Expression;
 import net.objecthunter.exp4j.ExpressionBuilder;
 
