@@ -55,7 +55,7 @@ public class Challenge4 {
         ") "
         + "*TEMP ";
 
-    // Replace colons by dots to standarize to american decimal separator. I got the hint from here https://www.objecthunter.net/exp4j/#Examples
+    // Replace colons by dots to standardize to american decimal separator. I got the hint from here https://www.objecthunter.net/exp4j/#Examples
     String replacedColons = SGR.replaceAll(",",".") ;
 
     Expression expression = new ExpressionBuilder(replacedColons).variables(variablesToReplace).build()
