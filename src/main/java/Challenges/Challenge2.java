@@ -33,7 +33,7 @@ public class Challenge2 {
 
     long startTime = System.nanoTime();
     /* Modify numbers in the array in process different values */
-    List<Integer> values = Arrays.asList(array2);
+    List<Integer> values = Arrays.asList(array);
 
     /* Filter values by frequency equal to just one appearance in the array */
     List uniques = values.stream()

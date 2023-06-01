@@ -71,6 +71,10 @@ public class Challenge4 {
     //0.5788386124180797 SGR
     //0.5788386124180797 NEW_SGR
 
+    /* New_SGR exists because I was getting a: "to many operands" error,
+    And needed to check if that was really the case
+    , in the end it was because of the decimal separator */
+
   }
 
 }
