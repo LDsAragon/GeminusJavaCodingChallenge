@@ -1,0 +1,37 @@
+
+
+
+The process of selecting cages for a group is as follows:
+
+1. A list called `cages` is created,
+containing all the available cage identifiers.
+
+2. For each group to be generated, an empty list called `group`
+is created to represent the selected cages for that group.
+
+3. A random number generator (`Random`) is used to randomly select cages from the `cages` list
+until the desired number of cages per group (`cagesPerGroup`) is reached.
+
+4. In each iteration,
+a random number between 0 and the size of the `cages` list is generated,
+and the corresponding cage at that index is selected.
+
+5. It is checked whether the selected cage is already present in the current group.
+If it is not, it is added to the group.
+Otherwise, the process of selecting random cages continues until a unique cage is found.
+
+6. Once all the cages for the current group have been selected,
+the group is added to the list of groups (`groups`).
+
+This process ensures that each cage has an equal probability of being selected at each iteration,
+thereby fulfilling the uniform distribution.
+There is no preference or bias towards any particular cage,
+and all cages have an equal chance of being chosen.
+
+By repeating this process for the desired number of groups,
+a uniform distribution of cages in the resulting groups is generated.
+
+It's important to note that the uniform distribution relies on the randomness of the random number generator used.
+If the generator is not truly random or not well-initialized, the distribution could be affected.
+However, in this case, the standard Java random number generator (`Random`) is used,
+which provides a good approximation of randomness for most practical purposes.
